@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AOSP=$1
-PATCHES="aosp-patch-md5.lst"
+PATCHES=""
 
 function die {
         echo "ERROR - ${1-UNKNOWN}" >&2

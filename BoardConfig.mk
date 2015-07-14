@@ -37,7 +37,7 @@ COMMON_GLOBAL_CFLAGS += -DLEGACY_BLOB_COMPATIBLE -DQCOM_LEGACY_UIDS -DNEEDS_VECT
 
 # display
 USE_OPENGL_RENDERER := true
-BOARD_EGL_CFG := device/sony/nozomi/config/egl.cfg
+BOARD_EGL_CFG := device/sony/hikari/config/egl.cfg
 
 TARGET_USES_ION := true
 TARGET_USES_OVERLAY := true
@@ -51,7 +51,7 @@ VIPER4ANDROID_MODE := NEON_HQ
 # bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/sony/nozomi/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/sony/hikari/bluetooth
 
 # sensor
 BOARD_USES_GENERIC_INVENSENSE := false
@@ -86,7 +86,7 @@ BOARD_HAVE_FMRADIO_BCM := true
 # kernel
 BOARD_KERNEL_MSM := true
 TARGET_KERNEL_SOURCE := kernel/msm
-TARGET_KERNEL_CONFIG := fuji_nozomi_defconfig
+TARGET_KERNEL_CONFIG := fuji_hikari_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_PREBUILT_TAG)/arm/arm-eabi-4.7/bin/arm-eabi-
 
 # board
@@ -127,22 +127,22 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BUILD_FS := dynamic
 
 # fstab
-TARGET_RECOVERY_FSTAB := device/sony/nozomi/config/recovery.$(BUILD_FS).fstab
+TARGET_RECOVERY_FSTAB := device/sony/hikari/config/recovery.$(BUILD_FS).fstab
 RECOVERY_FSTAB_VERSION := 2
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := LT26i,nozomi
+TARGET_OTA_ASSERT_DEVICE := LT26w,hikari
 
 # custom boot
-BOARD_CUSTOM_BOOTIMG_MK := device/sony/nozomi/custom/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/sony/hikari/custom/custombootimg.mk
 
 # custom ota
-BOARD_CUSTOM_OTA_MK := device/sony/nozomi/custom/customota.mk
+BOARD_CUSTOM_OTA_MK := device/sony/hikari/custom/customota.mk
 
 # CM Hardware
-BOARD_HARDWARE_CLASS := device/sony/nozomi/cmhw/
+BOARD_HARDWARE_CLASS := device/sony/hikari/cmhw/
 
--include vendor/sony/nozomi/BoardConfigVendor.mk
+-include vendor/sony/hikari/BoardConfigVendor.mk
 
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true

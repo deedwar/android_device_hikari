@@ -21,9 +21,9 @@ d8f0614f8841e2c694dcb434cbdb21f3 f7052b832d203616632c159079f16dbc ./frameworks/b
 54d02fef1e0f0d39e59bebf1843377bf 5aa01f06a914c86f0e360ceb7ef42691 ./frameworks/base/services/core/java/com/android/server/power/PowerManagerService.java
 b742b531ef14033bf154c2a431c26480 83e2599a56a6b1874abf36c97407ef4b ./frameworks/opt/telephony/src/java/com/android/internal/telephony/RIL.java
 034b69b80a40470a5eeec0830cf68dd3 2535312939360a41bf3834e93f5a1e33 ./hardware/broadcom/libbt/Android.mk
--------------------------------- 6449296a0cedf743d76295b1ebe5eb9c ./hardware/broadcom/libbt/conf/sony/nozomi/Android.mk
--------------------------------- 75ea406d59e96bdda5fc580c2870cb69 ./hardware/broadcom/libbt/conf/sony/nozomi/bt_vendor.conf
--------------------------------- 944dfa963b34f6d274eedf4fa24f30d5 ./hardware/broadcom/libbt/include/vnd_nozomi.txt
+-------------------------------- 6449296a0cedf743d76295b1ebe5eb9c ./hardware/broadcom/libbt/conf/sony/hikari/Android.mk
+-------------------------------- 75ea406d59e96bdda5fc580c2870cb69 ./hardware/broadcom/libbt/conf/sony/hikari/bt_vendor.conf
+-------------------------------- 944dfa963b34f6d274eedf4fa24f30d5 ./hardware/broadcom/libbt/include/vnd_hikari.txt
 40ef0fc14c53e5a9cb3821f543882a38 7e598b111319034046c53946fb9e3798 ./hardware/libhardware/include/hardware/bluetooth.h
 40e753ec5a07e2008997b70b92e935a3 5ffb3a92c4993f275123326879d075b3 ./hardware/libhardware/include/hardware/bt_av.h
 ecc8e7c360976ac26e0ddf20a01ad651 da456ab876c2db35ed9e0f3b2557d38d ./hardware/libhardware/include/hardware/bt_hf.h
